@@ -5,7 +5,7 @@ prefix = '.'
 client = discord.Bot(prefix=prefix, intents=discord.Intents.all())
 
 @client.event
-await on_ready():
+async def on_ready():
   print("\n\ngit bot is on!\n\n")
   
 client.run(yourtoken)
