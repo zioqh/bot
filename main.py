@@ -1,4 +1,8 @@
 #message counter + level system.
+#you need 3 files:
+#messages.json
+#users.json
+#levels.json
 
 import discord
 from discord.ext import commands
