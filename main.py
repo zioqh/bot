@@ -92,7 +92,6 @@ async def level_up(users, user, message):
 
 @client.command()
 async def level(ctx, member: discord.Member = None):
-  if ctx.channel.id == 1040080124097335296:
     if not member:
         id = ctx.message.author.id
         with open('users.json', 'r') as f:
@@ -108,7 +107,6 @@ async def level(ctx, member: discord.Member = None):
 
 @client.command()
 async def xp(ctx, member: discord.Member = None):
-  if ctx.channel.id == 1040080124097335296:
     if not member:
         id = ctx.message.author.id
         with open('users.json', 'r') as f:
@@ -132,7 +130,6 @@ async def update_messages(users, user):
 
 @client.command()
 async def messages(ctx, member: discord.Member = None):
-  if ctx.channel.id == 1040080124097335296:
     if not member:
         id = ctx.message.author.id
         with open('messages.json', 'r') as f:
